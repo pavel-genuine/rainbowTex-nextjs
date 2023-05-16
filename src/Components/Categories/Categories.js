@@ -22,7 +22,7 @@ function Categories() {
 
                     <LazyLoadImage
                     
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}
@@ -37,7 +37,7 @@ function Categories() {
                 </div>
                 <div>
                     <LazyLoadImage
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}
@@ -53,7 +53,7 @@ function Categories() {
                 </div>
                 <div>
                     <LazyLoadImage
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}
@@ -69,7 +69,7 @@ function Categories() {
                 </div>
                 <div>
                     <LazyLoadImage
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}
@@ -85,7 +85,7 @@ function Categories() {
                 </div>
                 <div>
                     <LazyLoadImage
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}
@@ -101,7 +101,7 @@ function Categories() {
                 </div>
                 <div>
                     <LazyLoadImage
-                        className={`h-[40vh] mb-2`}
+                        className={`lg:h-[40vh] h-[30vh] mb-2`}
                         alt={'cate'}
                         // height={400}
                         // width={300}

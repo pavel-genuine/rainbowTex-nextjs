@@ -12,7 +12,13 @@ import img8 from '../../assets/logos/jnj.png'
 import img9 from '../../assets/logos/ck.png'
 import img10 from '../../assets/logos/nik.png'
 import img11 from '../../assets/logos/levis.png'
-import img12 from '../../assets/logos/jc.png'
+import img12 from '../../assets/logos/lacoste.png'
+import img13 from '../../assets/logos/nautica.png'
+import img14 from '../../assets/logos/cnk.png'
+import img15 from '../../assets/logos/jj.png'
+import img16 from '../../assets/logos/under.png'
+import img17 from '../../assets/logos/holister.png'
+import img18 from '../../assets/logos/br.png'
 import Image from 'next/image';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 const posts = [
@@ -76,11 +82,42 @@ const posts = [
         img: img12,
         text: ''
     },
+    {
+        id: 13,
+        img: img13,
+        text: ''
+    },
+    {
+        id: 14,
+        img: img14,
+        text: ''
+    },
+    {
+        id: 15,
+        img: img15,
+        text: ''
+    },
+    {
+        id: 16,
+        img: img16,
+        text: ''
+    },
+    {
+        id: 17,
+        img: img17,
+        text: ''
+    },
+    {
+        id: 18,
+        img: img18,
+        text: ''
+    },
+
 ]
 
 const Tile = ({ img }) => {
     return (
-        <div className='w-[98.7vw] h-[33vh] lg:h-[18vw] lg:w-[25vw] overflow-hidden border-[.1px] border-[grey] relative'>
+        <div className='w-[98.7vw] h-[33vh] lg:h-[18vh] lg:w-[25vw] overflow-hidden border-[.1px] border-[grey] relative'>
             <motion.div
                 className=' '
 
@@ -125,7 +162,7 @@ const TileGap = ({ img }) => {
 }
 const Tiles = () => {
     return (
-        <div className=' overflow-hidden bg-bg py-14 px-[5vw]'>
+        <div className=' overflow-hidden bg-bg lg:py-24 py-14 px-[5vw]'>
             <motion.div
                 className=' grid grid-cols-4 lg:grid-cols-6 gap-8 lg:gap-[8%]'
 
@@ -135,7 +172,12 @@ const Tiles = () => {
             >
 
                 {
-                    posts.map(post => <TileGap key={post.id} img={post.img} text={post.text}></TileGap>)
+                    posts.map(post =>
+                        <div className={`${(post?.id == 17 || post?.id == 18) ? 'hidden lg:block ':''} flex justify-center items-center `}>
+                            <TileGap key={post.id} img={post.img} text={post.text}></TileGap>
+
+                        </div>
+                    )
                 }
             </motion.div>
 

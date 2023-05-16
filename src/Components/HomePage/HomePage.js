@@ -134,7 +134,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
 
             <div className='cursor-pointer' onClick={() => handleScroll()}>
               <motion.div
-                className=' text-[white] absolute  font-bold z-10 lg:top-[92%] top-[87%] lg:left-[50%] left-[40%]  '
+                className=' text-[white] absolute  font-bold z-10 lg:top-[92%] top-[89%] lg:left-[50%] left-[40%]  '
                 initial={{ y: 40, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: .5, delay: 1, }}
