@@ -8,14 +8,14 @@ import { Button } from "@mui/material";
 
 
 
-export const MenuToggle = ({ toggle,isOpen }) => {
+export const MenuToggle = ({ toggle, isOpen }) => {
 
     return (
         <div >
             {
                 !isOpen ?
-                    <button  onClick={toggle} className="menu_button">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke={`${isOpen?'#fff':"#fff"}`} className="w-6 h-6">
+                    <button onClick={toggle} className="menu_button">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke={`${isOpen ? '#fff' : "#fff"}`} className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
 
@@ -35,36 +35,36 @@ export const MenuToggle = ({ toggle,isOpen }) => {
 }
     ;
 
-export function Menu ({ toggle,isOpen }) {
+export function Menu({ toggle, isOpen }) {
 
     const router = useRouter();
-    const [bgWhite,setBgWhite]=useState(false)
+    const [bgWhite, setBgWhite] = useState(false)
 
-    useEffect(()=>{
+    useEffect(() => {
 
         // setTimeout(()=>{
-            if(isOpen) setBgWhite(true)
+        if (isOpen) setBgWhite(true)
         // },1000)
-        setTimeout(()=>{
-            if(!isOpen) setBgWhite(false)
-        },1000)
-})
+        setTimeout(() => {
+            if (!isOpen) setBgWhite(false)
+        }, 1000)
+    })
 
 
     return (
-        <nav style={{zIndex:10}}  className="  menuItem text-[white]">
-            <ul className={`${bgWhite?' bg-opacity-90  text-center bg-navBg w-[100vw] pt-10 h-[100vh]':''}`}>
+        <nav style={{ zIndex: 10 }} className="  menuItem text-[white]">
+            <ul className={`${bgWhite ? ' bg-opacity-90  text-center bg-navBg w-[100vw] pt-[20%] h-[100vh] mt-[-15%]' : ''}`}>
                 <li className="li_menu" onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/" ? " border-b-[2px]" : ""}`} href='/'>Home</Link>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/" ? " border-b-[2px]" : ""}`} href='/'>Home</Link>
 
                 </li>
 
                 <li className="li_menu" onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == '/services'? "border-b-[2px]" : ""}`} href='/services'>Services</Link>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == '/services' ? "border-b-[2px]" : ""}`} href='/services'>Services</Link>
 
                 </li>
                 <li className="li_menu" onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == '/products'? "border-b-[2px]" : ""}`} href='/products'>Products</Link>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == '/products' ? "border-b-[2px]" : ""}`} href='/products'>Products</Link>
 
                 </li>
 
@@ -74,17 +74,17 @@ export function Menu ({ toggle,isOpen }) {
                 </li> */}
 
                 <li className="li_menu" onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/testimonials" ? "border-b-[2px]" : ""}`} href='/testimonials'>Testimonials</Link>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/testimonials" ? "border-b-[2px]" : ""}`} href='/testimonials'>Testimonials</Link>
 
                 </li>
 
-                <li  className="li_menu" onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/about" ? "border-b-[2px]" : ""}`} href='/about'>About</Link>
+                <li className="li_menu" onClick={toggle}>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/about" ? "border-b-[2px]" : ""}`} href='/about'>About</Link>
 
                 </li>
-                
-                <li className="li_menu"  onClick={toggle}>
-                <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/contact" ? "border-b-[2px]" : ""}`} href='/contact'>Contact</Link>
+
+                <li className="li_menu" onClick={toggle}>
+                    <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/contact" ? "border-b-[2px]" : ""}`} href='/contact'>Contact</Link>
 
                 </li>
             </ul>
@@ -157,7 +157,7 @@ export default function MobileMenu() {
 
     return (
         <div ref={scope} >
-            <Menu  toggle={() => setIsOpen(!isOpen)} isOpen={isOpen}/>
+            <Menu toggle={() => setIsOpen(!isOpen)} isOpen={isOpen} />
             <MenuToggle toggle={() => setIsOpen(!isOpen)} isOpen={isOpen} />
         </div>
     );
