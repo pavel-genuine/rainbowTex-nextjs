@@ -173,8 +173,8 @@ const Tiles = () => {
 
                 {
                     posts.map(post =>
-                        <div className={`${(post?.id == 17 || post?.id == 18) ? 'hidden lg:block ':''} flex justify-center items-center `}>
-                            <TileGap key={post.id} img={post.img} text={post.text}></TileGap>
+                        <div key={post.id} className={`${(post?.id == 17 || post?.id == 18) ? 'hidden lg:block ':''} flex justify-center items-center `}>
+                            <TileGap  img={post.img} text={post.text}></TileGap>
 
                         </div>
                     )
