@@ -88,6 +88,11 @@ const posts = [
         text: ''
     },
     {
+        id: 17,
+        img: img17,
+        text: ''
+    },
+    {
         id: 14,
         img: img14,
         text: ''
@@ -102,11 +107,7 @@ const posts = [
         img: img16,
         text: ''
     },
-    {
-        id: 17,
-        img: img17,
-        text: ''
-    },
+  
     {
         id: 18,
         img: img18,
@@ -173,7 +174,7 @@ const Tiles = () => {
 
                 {
                     posts.map(post =>
-                        <div key={post.id} className={`${(post?.id == 17 || post?.id == 18) ? 'hidden lg:block ':''} flex justify-center items-center `}>
+                        <div key={post.id} className={`${(post?.id == 14 || post?.id == 15) ? 'hidden lg:block ':''} flex justify-center items-center `}>
                             <TileGap  img={post.img} text={post.text}></TileGap>
 
                         </div>
