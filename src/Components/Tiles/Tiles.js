@@ -38,10 +38,16 @@ const posts = [
         text: ''
     },
     {
+        id: 15,
+        img: img15,
+        text: ''
+    },
+    {
         id: 4,
         img: img4,
         text: ''
     },
+
     {
         id: 5,
         img: img5,
@@ -97,17 +103,13 @@ const posts = [
         img: img14,
         text: ''
     },
-    {
-        id: 15,
-        img: img15,
-        text: ''
-    },
+
     {
         id: 16,
         img: img16,
         text: ''
     },
-  
+
     {
         id: 18,
         img: img18,
@@ -145,11 +147,12 @@ const Tile = ({ img }) => {
         </div>
     )
 }
-const TileGap = ({ img }) => {
+const TileGap = ({ img, id }) => {
 
 
     return (
-        <div className='flex justify-center items-center ' >
+
+        <div className={`${(id == 14 || id == 15) ? 'hidden lg:block ' : ''} flex justify-center items-center `}>
             <LazyLoadImage
                 className='  w-[98.7vw]  lg:w-[15vw]  '
                 alt={'brand'}
@@ -159,11 +162,12 @@ const TileGap = ({ img }) => {
                 src={img?.src}
             />
         </div>
+
     )
 }
 const Tiles = () => {
     return (
-        <div className=' overflow-hidden bg-bg lg:py-24 py-14 px-[5vw]'>
+        <div className=' overflow-hidden bg-bg lg:pt-24 lg:pb-36 lg:py-0 py-14 px-[5vw]'>
             <motion.div
                 className=' grid grid-cols-4 lg:grid-cols-6 gap-8 lg:gap-[8%]'
 
@@ -174,10 +178,10 @@ const Tiles = () => {
 
                 {
                     posts.map(post =>
-                        <div key={post.id} className={`${(post?.id == 14 || post?.id == 15) ? 'hidden lg:block ':''} flex justify-center items-center `}>
-                            <TileGap  img={post.img} text={post.text}></TileGap>
+                        // <div  className={`${(post?.id == 14 || post?.id == 15) ? 'hidden lg:block ' : ''} flex justify-center items-center `}>
+                        <TileGap id={post.id} key={post.id} img={post.img} text={post.text}></TileGap>
 
-                        </div>
+                        // </div>
                     )
                 }
             </motion.div>

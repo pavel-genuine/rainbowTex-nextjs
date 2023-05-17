@@ -169,7 +169,7 @@ const Testimonials = ({ setIsHome }) => {
                                     <h3>Crish Mario</h3>
                                     <h4>Italy</h4>
                                     <p>
-                                    Working with this garment buying house was a breeze. They provided valuable insights and suggestions, helping me make informed decisions throughout the process. The end result was a collection of garments that exceeded my expectations.
+                                    Working with this garment buying house was a breeze. They provided valuable insights and suggestions, helping me make informed decisions throughout the process. The end result exceeded my expectations.
                                     </p>
                                 </div>
                             </div>
