@@ -170,7 +170,7 @@ const Tiles = () => {
         <div className=' overflow-hidden bg-bg lg:pt-24 lg:pb-36 lg:py-0 py-14 px-[5vw]'>
             <motion.div
                 className=' grid grid-cols-4 lg:grid-cols-6 gap-8 lg:gap-[8%]'
-
+ 
                 initial={{ y: 50, }}
                 whileInView={{ y: 0, }}
                 transition={{ duration: .2, delay: 0, }}
@@ -178,10 +178,7 @@ const Tiles = () => {
 
                 {
                     posts.map(post =>
-                        // <div  className={`${(post?.id == 14 || post?.id == 15) ? 'hidden lg:block ' : ''} flex justify-center items-center `}>
                         <TileGap id={post.id} key={post.id} img={post.img} text={post.text}></TileGap>
-
-                        // </div>
                     )
                 }
             </motion.div>
