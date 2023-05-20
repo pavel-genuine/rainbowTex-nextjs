@@ -23,13 +23,13 @@ export const Demo = (
 
       <div className='lg:pt-[0%] pt-[30%] px-[5vw] lg:h-[100vh] h-[95vh] w-[100vw] lg:w-[98.8vw] bg-[black] bg-opacity-60'>
 
-        <div className='lg:absolut top-[170px] lg:flex justify-between flex-col lg:h-[94vh]'>
+        <div className=' lg:flex justify-between flex-col lg:h-[94vh]'>
 
           <div className='lg:h-[80px]'>
             
           </div>
 
-          <div className='lg:h-[410px] overflow-hidden' >
+          <div className='' >
             <div className=''>
 
               <h1 className='lg:text-[60px] text-[25px] font-semibold text-[white]'>
@@ -77,19 +77,19 @@ export const Demo = (
           <div className=' text-[white] pt-16 '>
             <div className='lg:flex justify-between lg:w-[87vw] lg:font-semibold lg:text-md '>
 
-              <p className='lg:absolut top-[510px]'>
+              <p className=''>
                 <span className='text-[orange]'>
                   +5000
                 </span>  Wholesale Orders Worldwide
               </p>
 
-              <p className='lg:absolut top-[510px] left-[45vw]'>
+              <p className=''>
                 <span className='text-[orange]'>
                   +20
                 </span>  Countries
               </p>
 
-              <p className='lg:absolut top-[510px] right-[0vw]'>
+              <p className=''>
 
                 Operating Since  <span className='text-[orange]'>
                   2006
@@ -144,7 +144,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
               ></Demo>
             </div>
 
-            <div className='cursor-pointer lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[5.5%]' onClick={() => handleScroll()}>
+            <div className='cursor-pointer lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
               <motion.div
                 className='   '
                 initial={{ y: 40, opacity: 0 }}
