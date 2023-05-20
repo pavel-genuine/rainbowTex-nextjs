@@ -46,7 +46,7 @@ export const Demo = (
                 }
               </p>
 
-              <div className='flex mt-8 space-x-5'>
+              <div className='flex mt-16 space-x-5'>
 
                 <a href="https://api.whatsapp.com/send/?phone=8801711813933&text=" target="_blank" rel="noopener noreferrer">
 
@@ -74,7 +74,7 @@ export const Demo = (
             </div>
           </div>
 
-          <div className=' text-[white] pt-16 '>
+          <div className=' text-[white] pt-16 lg:pt-0 '>
             <div className='lg:flex justify-between lg:w-[87vw] lg:font-semibold lg:text-md '>
 
               <p className=''>
