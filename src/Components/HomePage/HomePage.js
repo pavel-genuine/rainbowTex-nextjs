@@ -25,7 +25,7 @@ export const Demo = (
 
         <div className=' lg:flex justify-between flex-col lg:h-[94vh]'>
 
-          <div className='lg:h-[80px]'>
+          <div className='lg:h-[50px]'>
             
           </div>
 
@@ -46,7 +46,7 @@ export const Demo = (
                 }
               </p>
 
-              <div className='flex mt-16 space-x-5'>
+              <div className='flex lg:mt-8 mt-16 space-x-5'>
 
                 <a href="https://api.whatsapp.com/send/?phone=8801711813933&text=" target="_blank" rel="noopener noreferrer">
 
