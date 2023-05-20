@@ -38,7 +38,7 @@ const Global = () => {
             >
                 <div className='lg:mt-8 mt-5 text-[white] '>
                     <div className='h-[12.5vh] lg:h-auto'>
-                        <h2 className='lg:text-3xl text-2xl text-[white]  text-center font-semibold '><span className='text-accent'>Enterprise-ready solutions</span> for your business need</h2>
+                        <h2 className='lg:text-4xl text-[25px] text-[white]  text-center font-semibold '><span className='text-accent'>Enterprise-ready solutions</span> for your business need</h2>
                         <h2 className='lg:text-lg   text-center text-[#cecece] lg:mt-8 px-2 my-5 lg:my-0'>Rainbow Tex is built by the team that created the goods <span className='lg:hidden'>for some of the amazing buyers.</span></h2>
                         <h2 className='lg:text-lg  text-center text-[#cecece] hidden lg:block mb-5'>for some of the amazing buyers globally.</h2>
                     </div>

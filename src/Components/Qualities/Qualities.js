@@ -25,7 +25,7 @@ const Qualities = () => {
 
                     <div className=' bg-[#1F2937] mr-5 lg:mr-[5vh] lg:px-5 px-3 py-1 lg:h-[36vh] h-[250px] overflow-hidden lg:w-[25vw] w-[42vw]'>
                             <LazyLoadImage
-                                className={`lg:w-[80px] w-[70px]`}
+                                className={`lg:w-[80px] w-[70px] lg:h-[80px] h-[70px]`}
                                 alt={'cate'}
                                 // height={500}
                                 // width={900}
@@ -44,7 +44,7 @@ const Qualities = () => {
 
                         <div className=' bg-bg2 mr-5 lg:mr-[5vh] lg:px-5 lg:py-3 px-3 py-1 lg:h-[36vh] h-[250px] overflow-hidden lg:w-[25vw] w-[42vw]'>
                             <LazyLoadImage
-                                className={`lg:w-[100px] w-[80px]`}
+                                className={`lg:w-[80px] w-[70px] lg:h-[80px] h-[70px]`}
                                 alt={'cate'}
                                 // height={500}
                                 // width={900}
@@ -66,7 +66,7 @@ const Qualities = () => {
 
                     <div className=' bg-bg2 mr-5 lg:mr-[5vh] lg:px-5 lg:py-3 px-3 py-1 lg:h-[36vh] h-[250px] overflow-hidden lg:w-[25vw] w-[42vw]'>
                             <LazyLoadImage
-                                className={`lg:w-[100px] w-[70px]`}
+                                className={`lg:w-[80px] w-[70px] lg:h-[80px] h-[70px]`}
                                 alt={'cate'}
                                 // height={500}
                                 // width={900}
@@ -85,7 +85,7 @@ const Qualities = () => {
 
                         <div className=' bg-[#1F2937] mr-5 lg:mr-[5vh] lg:px-5 lg:py-3 px-3 py-1 lg:h-[36vh] h-[250px] overflow-hidden lg:w-[25vw] w-[42vw]'>
                             <LazyLoadImage
-                                className={`lg:w-[100px] w-[70px]`}
+                                className={`lg:w-[80px] w-[70px] lg:h-[80px] h-[70px]`}
                                 alt={'cate'}
                                 // height={500}
                                 // width={900}

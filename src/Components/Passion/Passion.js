@@ -41,10 +41,10 @@ const Passion = ({ career, csr, passion, passionTag }) => {
                         </p>
 
                         <Link href='/about'>
-                            <Button style={{ borderRadius: '68px' }} className='border-accent text-accent' variant='outlined'
-                                startIcon={<CrisisAlertIcon style={{ color: '#4ADE80' }} />}
+                            <Button style={{ borderRadius: '68px',backgroundColor:'#334155' }} className='border-accent text-accent w-[130px]' 
+                                startIcon={<CrisisAlertIcon style={{ color: 'white' }} />}
                             >
-                                <p className='text-accent'>
+                                <p className='text-[white]'>
                                     Learn More
                                 </p>
                             </Button>
@@ -63,7 +63,7 @@ const Passion = ({ career, csr, passion, passionTag }) => {
 
                     <LazyLoadImage
 
-                        className={`h-[40vh] lg:h-[70vh] mx-auto lg:p-[8%] py-8 grayscale `}
+                        className={`h-[40vh] lg:h-[70vh] mx-auto lg:py-[8%] lg:pl-[8%] py-8 grayscale `}
                         alt={'brand'}
                        
                         src={"https://i.ibb.co/8cdj540/Screenshot-2023-04-14-115857.png"}                    // width={}

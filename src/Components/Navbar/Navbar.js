@@ -37,7 +37,7 @@ const Navbar = ({ isHome }) => {
             <div id='' style={{ transition: "all .5s", }} className=
                 {`nav w-[100vw] h-[60px] md:h-[80px]  fixed  ${!background ? 'bg-opacity-0 bg-white' : 'bg-opacity-90 bg-navBg'} `}
             >
-                <div class="lg:navbar lg:w-[82%] mx-auto lg:flex my-4  ">
+                <div class="lg:navbar lg:w-[87%] lg:pl-[2.5vw] mx-auto lg:flex my-4  ">
                     <div class="lg:navbar-start">
 
 
