@@ -35,7 +35,7 @@ const Navbar = ({ isHome }) => {
         <div className='w-[100vw] absolute' style={{ zIndex: 100 }}>
 
             <div id='' style={{ transition: "all .5s", }} className=
-                {`nav w-[100vw] h-[60px] md:h-[80px]  fixed  ${!background ? 'bg-opacity-0 bg-white' : 'bg-opacity-90 bg-navBg'} `}
+                {`nav w-[100vw] h-[60px] md:h-[80px]  fixed  ${!background ? 'bg-opacity-0 bg-white' : 'bg-opacity-40 bg-navBg backdrop-blur-sm'} `}
             >
                 <div class="lg:navbar lg:w-[87%] lg:pl-[2.5vw] mx-auto lg:flex my-4  ">
                     <div class="lg:navbar-start">
