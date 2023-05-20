@@ -50,7 +50,7 @@ const Testimonials = ({ setIsHome }) => {
 
                                 </h1>
 
-                                <p className=' lg:text-xl  text-center px-7 lg:px-16'>
+                                <p className=' lg:text-xl  text-center px-[5vw]'>
 
                                     At Rainbow Tex, we understand the importance of building trust and credibility with our clients. That's why we feature testimonials from satisfied customers on our website. These testimonials provide real-world examples of the high-quality products and services that we offer and demonstrate our commitment to customer satisfaction. We showcase testimonials from a range of clients, including small businesses and large corporations, to show the breadth and depth of our expertise. We also include photos and quotes from our clients to help potential customers connect with our brand and understand the positive experiences that others have had working with us. At Rainbow Tex, we believe that testimonials are an essential part of building trust with our clients, and we are committed to showcasing the positive experiences that our customers have had working with us.
                                 </p>
@@ -63,11 +63,11 @@ const Testimonials = ({ setIsHome }) => {
 
 
 
-                <div className='py-10 lg:w-[98.8vw] overflow-hidden '>
+                <div className='py-10 lg:w-[98.8vw] overflow-hidden px-[5vw]'>
 
 
                     <div className='lg:flex'>
-                        <motion.div className='lg:pl-28 mb-10 lg:mb-0'
+                        <motion.div className=' mb-10 lg:mb-0'
 
                             viewport={{ once: true }}
                             initial={{ y: 300, opacity: .5 }}
@@ -112,7 +112,7 @@ const Testimonials = ({ setIsHome }) => {
 
 
                     <div className='lg:flex lg:pt-10'>
-                        <motion.div className='lg:pl-28 lg:w-[80%] mb-10 lg:mb-0'
+                        <motion.div className='lg:w-[80%] mb-10 lg:mb-0'
 
                             viewport={{ once: true }}
                             initial={{ y: 200, opacity: .5 }}
@@ -155,7 +155,7 @@ const Testimonials = ({ setIsHome }) => {
 
 
                     <div className='lg:flex lg:pt-10'>
-                        <motion.div className='lg:pl-28 mb-10 lg:mb-0'
+                        <motion.div className=' mb-10 lg:mb-0'
 
                             viewport={{ once: true }}
                             initial={{ y: 300, opacity: .5 }}

@@ -56,7 +56,7 @@ const Products = ({ setIsHome }) => {
 
                                 </h1>
 
-                                <p className=' lg:text-xl  text-center px-7 lg:px-16'>
+                                <p className=' lg:text-xl  text-center px-[5vw]'>
                                     At Rainbow Tex, we offer a wide range of high-quality products to meet the needs of our clients. Our products include everything from casual wear to formal wear, and we offer a variety of styles, colors, and sizes to suit different preferences. We work with a network of trusted suppliers and manufacturers to ensure that our products are of the highest quality and are ethically sourced. Our product range includes t-shirts, polo shirts, dress shirts, blouses, dresses, skirts, pants, and more.
                                     We also offer custom product development services, allowing our clients to create unique and customized products that are tailored to their specific needs. At Rainbow Tex, we are committed to providing our clients with the best possible products and services, and we are constantly updating our product range to ensure that we stay up-to-date with the latest trends and styles in the industry.
                                 </p>
@@ -69,11 +69,11 @@ const Products = ({ setIsHome }) => {
 
 
 
-                <div className='py-10  lg:w-[98.8vw] overflow-hidden px-5 lg:px-0 text-center lg:text-left '>
+                <div className='py-10  lg:w-[98.8vw] overflow-hidden px-[5vw] text-center lg:text-left '>
 
 
                     <div className='lg:flex'>
-                        <motion.div className='lg:pl-28'
+                        <motion.div className=''
 
                             viewport={{ once: true }}
                             initial={{ y: 300, opacity: .5 }}
@@ -127,7 +127,7 @@ const Products = ({ setIsHome }) => {
 
 
                     <div className='lg:flex lg:pt-10'>
-                        <motion.div className='lg:pl-28 lg:w-[95%]'
+                        <motion.div className=' lg:w-[95%]'
 
                             viewport={{ once: true }}
                             initial={{ y: 200, opacity: .5 }}
@@ -193,7 +193,7 @@ const Products = ({ setIsHome }) => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: .5, delay: 0, }}
 
-                            className='lg:pl-96' >
+                            className='' >
                             <div>
 
                                 <LazyLoadImage
@@ -246,7 +246,7 @@ const Products = ({ setIsHome }) => {
                             initial={{ x: -200, opacity: .5 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: .5, delay: 0, }}
-                            className='lg:pt-20 lg:pl-28  flex flex-col-reverse lg:flex-row '>
+                            className='lg:pt-20  flex flex-col-reverse lg:flex-row '>
 
 
                             <div className='lg:w-[50%] lg:pt-28 pr-5 lg:pb-0 pb-5'>

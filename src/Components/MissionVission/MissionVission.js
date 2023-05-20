@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const MissionVision = () => {
     return (
         <div className='py-10'>
-            <div className='lg:w-[82%] w-[90%] mx-auto'>
+            <div className='px-[5vw] mx-auto'>
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ y: 40, opacity: .1 }}

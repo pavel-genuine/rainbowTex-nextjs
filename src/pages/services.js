@@ -32,7 +32,7 @@ const Services = ({ setIsHome }) => {
 
             </Head>
 
-            <div className='bg-bg text-white'>
+            <div className='bg-bg text-white '>
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ y: 300, opacity: .5 }}
@@ -53,7 +53,7 @@ const Services = ({ setIsHome }) => {
 
                                 </h1>
 
-                                <p className=' lg:text-xl  text-center px-7 lg:px-16'>
+                                <p className=' lg:text-xl  text-center px-[5vw]'>
 
                                     At Rainbow Tex, we offer a range of services to meet the needs of our clients. Our primary services include product sourcing, quality control, and logistics management. We work closely with our clients to identify the right products for their needs and to ensure that they meet the required quality standards. Our quality control process is rigorous, and we inspect every product thoroughly to ensure that it meets our clients' expectations.
                                     We also provide logistics management services to ensure that products are delivered on time and at the right cost. Additionally, we offer a range of other services, including market research, trend analysis, and custom product development. Our goal is to provide a comprehensive suite of services to our clients, allowing them to focus on their core business while we take care of the rest.</p>
@@ -66,11 +66,11 @@ const Services = ({ setIsHome }) => {
 
 
 
-                <div className='py-10  lg:w-[98.8vw] overflow-hidden px-5 lg:px-0 text-center lg:text-left '>
+                <div className='py-10  lg:w-[98.8vw] overflow-hidden text-center lg:text-left px-[5vw] '>
 
 
                     <div className='lg:flex'>
-                        <motion.div className='lg:pl-28'
+                        <motion.div className=''
 
                             viewport={{ once: true }}
                             initial={{ y: 300, opacity: .5 }}
@@ -126,7 +126,7 @@ const Services = ({ setIsHome }) => {
 
 
                     <div className='lg:flex lg:pt-10'>
-                        <motion.div className='lg:pl-28 lg:w-[50%]'
+                        <motion.div className=' lg:w-[50%]'
 
                             viewport={{ once: true }}
                             initial={{ y: 200, opacity: .5 }}
@@ -169,7 +169,7 @@ const Services = ({ setIsHome }) => {
                                     src={source.src} />
                             </div>
 
-                            <div className='lg:w-[60%] lg:pt-28 pt-5 lg:pb-0 pb-5'>
+                            <div className='lg:w-[60%] lg:pt-28 pt-5 lg:pb-0 pb-5 lg:px-2'>
                                 <h1 className='font-bold py-3'>Material sourcing</h1>
 
                                 <p>

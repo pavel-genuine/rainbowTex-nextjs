@@ -48,9 +48,8 @@ const About = ({ setIsHome }) => {
 
                                 </h1>
 
-                                <p className='text-xl lg:text-2xl text-center px-7'>
-                                    We are a rapidly growing conglomerate, working in  RMG in Bangladesh.
-                                </p>
+                                <p className='text-xl lg:text-2xl text-center px-[5vw]'>
+                                    Rainbow Tex is a garments buying house that specializes in product sourcing, quality control, and logistics management. With years of experience in the industry, our team is dedicated to providing the highest quality products and services to our clients. We work closely with our clients to understand their needs and to ensure that they receive the best possible service. Our mission is to build long-lasting relationships with our clients by providing exceptional service and high-quality products. At Rainbow Tex, we believe in integrity, honesty, and transparency, and we are committed to upholding these values in everything we do.                                </p>
                             </div>
                         </div>
 
