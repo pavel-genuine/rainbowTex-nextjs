@@ -129,7 +129,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
 
   return (
     <div className=' '>
-      <div className='w-[100%] mx-auto lg:h-[100vh] h-[93vh]  '>
+      <div className='w-[100%] mx-auto h-[100vh] '>
 
         {
           <div className='relative'>
