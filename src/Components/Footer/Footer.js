@@ -119,7 +119,7 @@ const Footer = () => {
                     © 2023 Rainbow Tex all rights reserved.
                 </p>
 
-                <a href="https://joynulabedin.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://gensoft.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <p>
                         Made by GenSoft
                     </p>

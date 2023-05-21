@@ -37,7 +37,7 @@ const Qualities = () => {
                             <h1 className='lg:text-xl lg:my-3 my-2'>
                                 Excellence
                             </h1>
-                            <p className='font-thin text-sm lg:text-lg'>
+                            <p className='font-thin text-sm lg:text-lg '>
                                 Committed to excellence and tackling challenges with a can-do Attitude at Shwapan Trade International.
                             </p>
                         </div>
@@ -56,7 +56,7 @@ const Qualities = () => {
                             <h1 className='lg:text-xl lg:my-3 my-2'>
                                 Quality
                             </h1>
-                            <p className='font-thin text-sm lg:text-lg'>
+                            <p className='font-thin text-sm lg:text-lg '>
                                 Our fabrics are carefully selected for their durability, comfort, and excellent drape.                    </p>
                         </div>
 
