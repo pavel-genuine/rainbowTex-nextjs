@@ -46,7 +46,7 @@ export const Demo = (
                 }
               </p>
 
-              <div className='lg:flex lg:mt-8 mt-10 lg:space-x-5 space-y-10 lg:space-y-0'>
+              <div className='flex lg:mt-8 mt-10 space-x-1 lg:space-x-5'>
 
                 <a href="https://api.whatsapp.com/send/?phone=8801711813933&text=" target="_blank" rel="noopener noreferrer">
 
