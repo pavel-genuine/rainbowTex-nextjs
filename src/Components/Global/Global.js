@@ -36,14 +36,14 @@ const Global = () => {
             // transformValues={'-200px'}
             // transform= isInView ? "none" : "translateX(-200px)"
             >
-                <div className='lg:mt-8 mt-5 text-[white] '>
-                    <div className='h-[12.5vh] lg:h-auto'>
+                <div className='mt-8 text-[white] '>
+                    <div className=' lg:h-auto'>
                         <h2 className='lg:text-4xl text-[25px] text-[white]  text-center font-semibold '><span className='text-accent'>Enterprise-ready solutions</span> for your business need</h2>
                         <h2 className='lg:text-lg   text-center text-[#cecece] lg:mt-8 px-2 my-5 lg:my-0'>Rainbow Tex is built by the team that created the goods <span className='lg:hidden'>for some of the amazing buyers.</span></h2>
                         <h2 className='lg:text-lg  text-center text-[#cecece] hidden lg:block mb-5'>for some of the amazing buyers globally.</h2>
                     </div>
 
-                    <div className='lg:my-8 mt-10  h-[12.5vh] lg:h-auto'>
+                    <div className='my-8  lg:h-auto'>
                         <div className='flex text-[white] justify-center items-center space-x-16 lg:mb-4 lg:text-5xl text-3xl  font-semibold'>
                             <div className='flex'>
                                 <motion.h2 className='lg:text-5xl text-3xl   font-semibold'>{rounded}</motion.h2>{'.'}
