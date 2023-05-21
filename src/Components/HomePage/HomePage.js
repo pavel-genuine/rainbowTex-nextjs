@@ -21,18 +21,18 @@ export const Demo = (
   return (
     <div>
 
-      <div className='lg:pt-[0%] pt-[30%] px-[5vw] lg:h-[100vh] h-[95vh] w-[100%] bg-[black] bg-opacity-60'>
+      <div className='lg:pt-[0%] pt-[45%] px-[5vw] h-[100vh]  w-[100%] bg-[black] bg-opacity-60'>
 
-        <div className=' lg:flex justify-between flex-col lg:h-[94vh]'>
+        <div className=' flex lg:justify-between  flex-col lg:h-[94vh]'>
 
-          <div className='lg:h-[50px]'>
+          <div className='lg:h-[50px] '>
             
           </div>
 
           <div className='' >
             <div className=''>
 
-              <h1 className='lg:text-[60px] text-[25px] font-semibold text-[white]'>
+              <h1 className='lg:text-[60px] text-[20px] font-semibold text-[white]'>
                 <span className='text-accent'>{tag1} {' '}</span>{tag2}
                 <br />
                 <span>{tag3}</span>
@@ -74,7 +74,7 @@ export const Demo = (
             </div>
           </div>
 
-          <div className=' text-[white] pt-10 lg:pt-0 '>
+          <div className=' text-[white] text-sm lg-text-md pt-10 lg:pt-0 '>
             <div className='lg:flex justify-between lg:w-[87vw] lg:font-semibold lg:text-md '>
 
               <p className=''>
@@ -101,9 +101,9 @@ export const Demo = (
         </div>
       </div>
 
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw]' id='pic3' />
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic2' />
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw]  ' id='pic1' />
+      <div className='pic h-[100vh]  w-[100vw]' id='pic3' />
+      <div className='pic h-[100vh]  w-[100vw] ' id='pic2' />
+      <div className='pic h-[100vh]  w-[100vw]  ' id='pic1' />
     </div>
   );
 };
@@ -144,7 +144,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
               ></Demo>
             </div>
 
-            <div className='cursor-pointer xs:hidden sm:block lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
+            <div className='cursor-pointer hidden lg:block lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
               <motion.div
                 className='   '
                 initial={{ y: 40, opacity: 0 }}
