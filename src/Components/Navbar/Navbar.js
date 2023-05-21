@@ -43,7 +43,7 @@ const Navbar = ({ isHome }) => {
 
                         <Link href='/' class=" normal-case text-xl ">
                             <img
-                                className='lg:w-[35%] w-[40%] mx-[10px] lg:mx-[-4vw]  grayscale bg-[white] px-3 py-2 rounded-full bg-opacity-70'
+                                className='lg:w-[35%] w-[40%] mx-[10px] lg:mx-[-4vw] bg-[white] px-3 py-2 rounded-full bg-opacity-70'
                                 src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
                             />
 
