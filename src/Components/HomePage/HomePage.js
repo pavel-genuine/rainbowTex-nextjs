@@ -144,7 +144,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
               ></Demo>
             </div>
 
-            <div className='cursor-pointer hidden lg:block lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
+            <div className='cursor-pointer hidden lg:block rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 top-[50%] right-[0vw] lg:right-[3vw]' onClick={() => handleScroll()}>
               <motion.div
                 className='   '
                 initial={{ y: 40, opacity: 0 }}
