@@ -4,11 +4,11 @@ import '@/styles/mobileNav.css'
 import '@/styles/testimony.css'
 import { useEffect, useState } from 'react'
 import dynamic from 'next/dynamic';
- 
+import { motion } from "framer-motion"
 import { createTheme, ThemeProvider } from '@mui/material';
 import Navbar from '@/Components/Navbar/Navbar';
 import WhatsApp from '@/Components/WhatsApp/WhatsApp';
-import {SunnyMorning } from 'moving-letters'
+import { SunnyMorning } from 'moving-letters'
 
 const Footer = dynamic(() => import('@/Components/Footer/Footer'), {
   loading: () => <p>Loading...</p>,
@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 1300)
+    }, 1000)
 
   }, [])
 
@@ -51,14 +51,24 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
 
-      <div className='flex justify-center items-center'>
+      <div className=''>
         {
           !isOpen ?
-            <div className=' h-[100vh] w-[99] flex justify-center items-center'>
-              <div className='scale-[.8] lg:scale-[1.5]  flex justify-center items-center sapce-x-1 lg:space-x-5'>
+            <div className=' h-[100vh] w-[100vw] flex justify-center items-center bg-bg'>
+              <div className='scale-[.5] flex justify-center items-center'>
+                <motion.div
+                  // viewport={{ once: true }}
+                  initial={{ opacity: 0, scale: .3 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: .7, delay: 0 }}
 
-              <SunnyMorning text={'Rainbow'} />
-              <SunnyMorning text={'Tex'} />
+                >
+                  <img
+                    className=''
+                    src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
+                  />
+                </motion.div>
+
               </div>
             </div>
 
