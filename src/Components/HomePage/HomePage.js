@@ -21,7 +21,7 @@ export const Demo = (
   return (
     <div>
 
-      <div className='lg:pt-[0%] pt-[30%] px-[5vw] lg:h-[100vh] h-[95vh] w-[100vw] lg:w-[98.8vw] bg-[black] bg-opacity-60'>
+      <div className='lg:pt-[0%] pt-[30%] px-[5vw] lg:h-[100vh] h-[95vh] w-[100%] bg-[black] bg-opacity-60'>
 
         <div className=' lg:flex justify-between flex-col lg:h-[94vh]'>
 
@@ -46,7 +46,7 @@ export const Demo = (
                 }
               </p>
 
-              <div className='flex lg:mt-8 mt-16 space-x-5'>
+              <div className='flex lg:mt-8 mt-10 space-x-5'>
 
                 <a href="https://api.whatsapp.com/send/?phone=8801711813933&text=" target="_blank" rel="noopener noreferrer">
 
@@ -74,7 +74,7 @@ export const Demo = (
             </div>
           </div>
 
-          <div className=' text-[white] pt-16 lg:pt-0 '>
+          <div className=' text-[white] pt-10 lg:pt-0 '>
             <div className='lg:flex justify-between lg:w-[87vw] lg:font-semibold lg:text-md '>
 
               <p className=''>
@@ -101,9 +101,9 @@ export const Demo = (
         </div>
       </div>
 
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic3' />
+      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw]' id='pic3' />
       <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic2' />
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic1' />
+      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw]  ' id='pic1' />
     </div>
   );
 };
@@ -144,7 +144,7 @@ const HomePage = ({ brand, tag1, tag2, tag3, tag4, smallTag }) => {
               ></Demo>
             </div>
 
-            <div className='cursor-pointer lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
+            <div className='cursor-pointer xs:hidden sm:block lg:rotate-90 absolute text-[white] lg:text-lg font-bold text-[white] text-center  font-bold z-10 lg:top-[50%] top-[89%] right-[40%] lg:right-[3vw]' onClick={() => handleScroll()}>
               <motion.div
                 className='   '
                 initial={{ y: 40, opacity: 0 }}
