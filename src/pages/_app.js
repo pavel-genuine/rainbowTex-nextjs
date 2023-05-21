@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 1500)
+    }, 2000)
 
   }, [])
 
@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }) {
                   // viewport={{ once: true }}
                   initial={{ opacity: 0, scale: .3 }}
                   whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1, delay: 0 }}
+                  transition={{ duration: 1.5, delay: 0 }}
 
                 >
                   <img
