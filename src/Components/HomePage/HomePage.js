@@ -101,9 +101,9 @@ export const Demo = (
         </div>
       </div>
 
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100%] ' id='pic3' />
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100%] ' id='pic2' />
-      <div className='pic lg:h-[100vh] h-[95vh] w-[100%] ' id='pic1' />
+      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic3' />
+      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic2' />
+      <div className='pic lg:h-[100vh] h-[95vh] w-[100vw] ' id='pic1' />
     </div>
   );
 };

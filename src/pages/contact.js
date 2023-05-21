@@ -70,7 +70,7 @@ const Contact = ({ setIsHome }) => {
                                                 startIcon={<CallIcon></CallIcon>}
 
                                                 variant="contained">
-                                                    
+
                                                 <a href="tel:+880 1711813933" className='text-xl font-bold text-[white]'>Call Now </a> </Button>
 
                                         </div>
@@ -124,7 +124,8 @@ const Contact = ({ setIsHome }) => {
                     height="450"
                     allowfullscreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </div>
         </div>
