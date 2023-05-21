@@ -21,11 +21,11 @@ export const Demo = (
   return (
     <div>
 
-      <div className='lg:pt-[0%] pt-[45%] px-[5vw] h-[100vh]  w-[100%] bg-[black] bg-opacity-60'>
+      <div className='flex lg:items-start items-center px-[5vw] h-[100vh]  w-[100%] bg-bg bg-opacity-60'>
 
         <div className=' flex lg:justify-between  flex-col lg:h-[94vh]'>
 
-          <div className='lg:h-[50px] '>
+          <div className='lg:h-[50px] hidden lg:block '>
             
           </div>
 
@@ -40,7 +40,7 @@ export const Demo = (
                 <br />
                 {tag4}<span className='text-accent'>.</span>
               </h1>
-              <p className='text-[white] lg:w-[40%] w-[100%] mt-5'>
+              <p className='text-[white] lg:w-[40%] w-[100%] mt-5 text-sm lg:text-md'>
                 {
                   smallTag
                 }
@@ -74,7 +74,7 @@ export const Demo = (
             </div>
           </div>
 
-          <div className=' text-[white] text-sm lg-text-md pt-10 lg:pt-0 '>
+          <div className=' text-[white] text-sm lg:text-md pt-10 lg:pt-0 '>
             <div className='lg:flex justify-between lg:w-[87vw] lg:font-semibold lg:text-md '>
 
               <p className=''>
