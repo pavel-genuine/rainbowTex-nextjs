@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 100)
+    }, 1000)
 
   }, [])
 
