@@ -3,6 +3,7 @@ import '@/styles/homePage.css'
 import '@/styles/mobileNav.css'
 import '@/styles/testimony.css'
 import { useEffect, useState } from 'react'
+
 import dynamic from 'next/dynamic';
 import { motion } from "framer-motion"
 import { createTheme, ThemeProvider } from '@mui/material';
@@ -43,7 +44,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 2000)
+    }, 800)
 
   }, [])
 
@@ -54,21 +55,53 @@ export default function App({ Component, pageProps }) {
       <div className=''>
         {
           !isOpen ?
-            <div className=' h-[100vh] w-[100vw] flex justify-center items-center bg-bg'>
-              <div className='lg:scale-[.5] scale-[.8] flex justify-center items-center'>
+            // <div className=' h-[100vh] w-[100vw] flex justify-center items-center bg-bg'>
+            //   <div className='lg:scale-[.5] scale-[.8] flex justify-center items-center'>
+            //     <motion.div
+            //       // viewport={{ once: true }}
+            //       initial={{ opacity: 0, scale: .3 }}
+            //       whileInView={{ opacity: 1, scale: 1 }}
+            //       transition={{ duration: 1.5, delay: 0 }}
+
+            //     >
+            //       <img
+            //         className='bg-[white] px-3 py-2 rounded-full bg-opacity-70'
+            //         src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
+            //       />
+            //     </motion.div>
+
+            //   </div>
+            // </div>
+
+            <div>
+              <div
+                className='h-[100vh] flex justify-center items-center bg-bg w-[100vw] overflow-hidden'
+
+              >
                 <motion.div
-                  // viewport={{ once: true }}
+                  className='absolute top-50 z-10'
                   initial={{ opacity: 0, scale: .3 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
+                  whileInView={{ opacity: 1, scale: .8 }}
                   transition={{ duration: 1.5, delay: 0 }}
 
                 >
                   <img
-                    className='bg-[white] px-3 py-2 rounded-full bg-opacity-70'
+                    // className='bg-[white grayscal px-3 py-2 rounded-full  bg-opacity-70'
                     src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
                   />
                 </motion.div>
 
+
+                <motion.div className='bg-[white] h-[50px] w-[50px] rounded-full z-0'
+
+                  viewport={{ once: true }}
+                  initial={{ opacity:1, scale: 1 }}
+                  whileInView={{ opacity: 1, scale: 100 }}
+                  transition={{ duration:3, delay: 0 }}
+
+                >
+
+                </motion.div>
               </div>
             </div>
 
