@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 800)
+    }, 100)
 
   }, [])
 
@@ -94,7 +94,6 @@ export default function App({ Component, pageProps }) {
 
                 <motion.div className='bg-[white] h-[50px] w-[50px] rounded-full z-0'
 
-                  viewport={{ once: true }}
                   initial={{ opacity:1, scale: 1 }}
                   whileInView={{ opacity: 1, scale: 100 }}
                   transition={{ duration:3, delay: 0 }}
