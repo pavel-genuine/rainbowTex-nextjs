@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 import HomePage from '@/Components/HomePage/HomePage'
 
 import Head from 'next/head'
- 
+
 const Categories = dynamic(() => import('@/Components/Categories/Categories'), {
   loading: () => <p>Loading...</p>,
 });
@@ -36,6 +36,7 @@ const Home = (props) => {
 
   return (
     <main>
+      
       <Head>
         <title>Home | Rainbow Tex</title>
         <meta property="og:title" content="Rainbow Tex" />
@@ -43,6 +44,7 @@ const Home = (props) => {
           name="og:description"
           content="Bangladeshi Ready Made Garments Sourcing Company. High-quality clothing exports from Bangladesh. Best in Fashion."
         />
+
         <meta property="og:url" content="https://www.rainbowtexbd.com/" />
         <meta property="og:image" content="https://i.ibb.co/x1mC4qm/Screenshot-2023-06-01-124833.png" />
 

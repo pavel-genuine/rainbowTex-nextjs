@@ -53,7 +53,7 @@ export function Menu({ toggle, isOpen }) {
 
     return (
         <nav style={{ zIndex: 10 }} className="  menuItem text-[white]">
-            <ul className={`${bgWhite ? ' bg-opacity-90  text-center bg-navBg w-[100vw] pt-[20%] h-[100vh] mt-[-15%]' : ''}`}>
+            <ul className={`${bgWhite ? ' bg-opacity-90 backdrop-blur-md text-center bg-navBg w-[100vw] pt-[20%] h-[100vh] mt-[-15%]' : ''}`}>
                 <li className="li_menu" onClick={toggle}>
                     <Link className={`md:p-3 md:m-5 hover:text-nav ${router.pathname == "/" ? " border-b-[2px]" : ""}`} href='/'>Home</Link>
 
