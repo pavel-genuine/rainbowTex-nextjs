@@ -82,7 +82,7 @@ export default function App({ Component, pageProps }) {
                   className='absolute top-50 z-10'
                   initial={{ opacity: 0, scale: .1 }}
                   whileInView={{ opacity: 1, scale: .5 }}
-                  transition={{ duration: 2, delay: 0 }}
+                  transition={{ duration: 2, delay: .2 }}
 
                 >
                   <img
@@ -92,11 +92,11 @@ export default function App({ Component, pageProps }) {
                 </motion.div>
 
 
-                <motion.div className='bg-[white] h-[50px] w-[50px] rounded-full z-0'
+                <motion.div className='bg-[white] h-[100px] w-[100px] rounded-full z-0'
 
-                  initial={{ opacity:1, scale: .1 }}
+                  initial={{ opacity:1, scale: .5 }}
                   whileInView={{ opacity: 1, scale: 100 }}
-                  transition={{ duration:3, delay: 0 }}
+                  transition={{ duration:3, delay: .2 }}
 
                 >
 

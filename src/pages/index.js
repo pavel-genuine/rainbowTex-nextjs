@@ -43,9 +43,8 @@ const Home = (props) => {
           name="og:description"
           content="Bangladeshi Ready Made Garments Sourcing Company. High-quality clothing exports from Bangladesh. Best in Fashion."
         />
-        {/* <meta property="og:type" content="video.movie" /> */}
-        {/* <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" /> */}
-        {/* <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /> */}
+        <meta property="og:url" content="https://www.rainbowtexbd.com/" />
+        <meta property="og:image" content="https://i.ibb.co/x1mC4qm/Screenshot-2023-06-01-124833.png" />
 
       </Head>
       <div className=' overflow-hidden ' style={{ zIndex: -1 }}>
