@@ -21,7 +21,7 @@ const Contact = ({ setIsHome }) => {
                 <meta property="og:title" content="Contact" />
                 <meta
                     name="og:description"
-                    content="Phone:+880 1711813933, Email:info@rainbowtexbd.com"
+                    content="Phone:+880 1711813933, Email:rainbowtex6@gmail.com"
                 />
                 {/* <meta property="og:type" content="video.movie" /> */}
                 {/* <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" /> */}
@@ -59,7 +59,7 @@ const Contact = ({ setIsHome }) => {
                                             <Button style={{ borderRadius: '68px' }} className='lg:w-[200px] w-[50vw] h-[50px] bg-[black]  '
                                                 startIcon={<EmailIcon></EmailIcon>}
                                                 variant="contained">
-                                                <a href="mailto:info@rainbowtexbd.com" className='text-xl font-bold text-[white]' type="submit" >Email Us</a>
+                                                <a href="mailto:rainbowtex6@gmail.comm" className='text-xl font-bold text-[white]' type="submit" >Email Us</a>
                                             </Button>
 
                                         </div>
@@ -112,7 +112,7 @@ const Contact = ({ setIsHome }) => {
 
                         <a className='underline' href="tel:+880 1711813933">   +880 1711813933 </a>,
                         <br />
-                        <a className='underline' href="mailto:info@rainbowtexbd.com"> info@rainbowtexbd.com </a>
+                        <a className='underline' href="mailto:rainbowtex6@gmail.com">rainbowtex6@gmail.com</a>
 
                     </p>
                 </motion.div>
