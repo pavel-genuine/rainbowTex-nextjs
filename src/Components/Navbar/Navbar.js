@@ -52,7 +52,7 @@ const Navbar = ({ isHome }) => {
 
                             >
                                 <img
-                                    className='lg:w-[35%] w-[40%] mx-[10px] lg:mx-[-4vw] bg-[white] px-3 py-2 rounded-full bg-opacity-70'
+                                    className='lg:w-[32%] w-[40%] mx-[10px] lg:mx-[-4vw] bg-[white] px-3 py-2 rounded-full bg-opacity-70'
                                     src="https://i.ibb.co/djRrFXd/rainbowtex-removebg-preview-1.png" alt="" srcset=""
                                 />
                             </motion.div>
