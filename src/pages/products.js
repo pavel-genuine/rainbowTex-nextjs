@@ -117,7 +117,7 @@ const Products = ({ setIsHome }) => {
                                 />
                             </div>
 
-                            <div className='lg:w-[60%] lg:pt-28 lg:px-5'>
+                            <div className='lg:w-[60%] lg:pt-16 lg:px-5'>
                                 <h1 className='font-bold py-3'>Denim</h1>
                                 <p className=' lg:pb-0 pb-5'>
                                     Rainbow Tex's heritage denim is produced using traditional methods, reestablishing a connection with the spirit of craftsmanship. Our carefully selected fabrics give it an authentically slubby appearance and serve as the perfect backdrop for the traditional fabric, trim, label, and wash detailing.                                </p>
@@ -173,7 +173,7 @@ const Products = ({ setIsHome }) => {
                                 />
                             </div>
 
-                            <div className='lg:w-[60%] lg:pt-28  lg:pb-0 pb-5'>
+                            <div className='lg:w-[60%] lg:pt-16  lg:pb-0 pb-5'>
                                 <h1 className='font-bold py-3'>Sweater</h1>
 
                                 <p>
@@ -249,7 +249,7 @@ const Products = ({ setIsHome }) => {
                             className='lg:pt-20  flex flex-col-reverse lg:flex-row '>
 
 
-                            <div className='lg:w-[50%] lg:pt-28 pr-5 lg:pb-0 pb-5'>
+                            <div className='lg:w-[50%] lg:pt-5 pr-5 lg:pb-0 pb-5'>
                                 <h1 className='font-bold py-3'>Outerwear</h1>
 
                                 <p>
