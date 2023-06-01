@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
 
     setTimeout(() => {
       setIsOpen(true)
-    }, 1000)
+    }, 2000)
 
   }, [])
 
@@ -80,9 +80,9 @@ export default function App({ Component, pageProps }) {
               >
                 <motion.div
                   className='absolute top-50 z-10'
-                  initial={{ opacity: 0, scale: .3 }}
-                  whileInView={{ opacity: 1, scale: .8 }}
-                  transition={{ duration: 1.5, delay: 0 }}
+                  initial={{ opacity: 0, scale: .1 }}
+                  whileInView={{ opacity: 1, scale: .5 }}
+                  transition={{ duration: 2, delay: 0 }}
 
                 >
                   <img

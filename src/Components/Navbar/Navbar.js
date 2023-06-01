@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from "next/router";
 import Link from 'next/link';
-
+import { motion, useScroll } from "framer-motion"
 import MobileMenu from './MobileMenu';
 
 
@@ -11,6 +11,7 @@ const Navbar = ({ isHome }) => {
 
     const router = useRouter();
 
+    const { scrollYProgress } = useScroll();
 
     useEffect(() => {
 
@@ -42,10 +43,19 @@ const Navbar = ({ isHome }) => {
 
 
                         <Link href='/' class=" normal-case text-xl ">
-                            <img
-                                className='lg:w-[35%] w-[40%] mx-[10px] lg:mx-[-4vw] bg-[white] px-3 py-2 rounded-full bg-opacity-70'
-                                src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
-                            />
+                            <motion.div 
+
+
+                                initial={{ opacity: 1, scale:1 }}
+                                whileInView={{ opacity: 1, scale:1}}
+                                transition={{ duration: 1, delay: 0 }}
+
+                            >
+                                <img
+                                    className='lg:w-[35%] w-[40%] mx-[10px] lg:mx-[-4vw] bg-[white] px-3 py-2 rounded-full bg-opacity-70'
+                                    src="https://i.ibb.co/nRLv9G8/rainbowtex-removebg-preview.png" alt="" srcset=""
+                                />
+                            </motion.div>
 
                         </Link>
                     </div>
