@@ -42,7 +42,7 @@ const Home = (props) => {
         <meta property="og:title" content="Rainbow Tex" />
         <meta
           name="og:description"
-          content="Bangladeshi Ready Made Garments Sourcing Company. High-quality clothing exports from Bangladesh. Best in Fashion."
+          content="Rainbow Tex is Bangladeshi Ready Made Garments Sourcing Company. High-quality clothing exports from Bangladesh. Best in Fashion."
         />
 
         <meta property="og:url" content="https://www.rainbowtexbd.com/" />

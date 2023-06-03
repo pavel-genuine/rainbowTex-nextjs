@@ -55,6 +55,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
+      
       <div className=''>
         {
           !isOpen ?
