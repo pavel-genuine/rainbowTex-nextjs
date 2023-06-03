@@ -101,7 +101,7 @@ const Footer = () => {
                                         <InstagramIcon />
                                     </a>
 
-                                    <a href="https://link" target={`_blank`}>
+                                    <a href="https://www.linkedin.com/in/rainbow-tex-a17a638a/" target={`_blank`}>
     
                                             <LinkedInIcon />
                                     </a>
