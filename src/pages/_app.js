@@ -121,7 +121,7 @@ export default function App({ Component, pageProps }) {
 
                 <SunnyMorning text='Rainbow' />
                 <div className='lg:ml-5'>
-                  <SunnyMorning text='Tex' />
+                  <SunnyMorning text='tex' />
                 </div>
 
               </div>
