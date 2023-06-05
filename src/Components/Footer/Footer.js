@@ -74,7 +74,7 @@ const Footer = () => {
                                     EMAIL
                                 </h1>
                                 <p className='mt-3 font-thin'>
-                                    <a className='underline' href="mailto:rainbowtex6@gmail.com">rainbowtex6@gmail.com</a>
+                                    <a className='underline' href="mailto:writeus@rainbowtexbd.com">writeus@rainbowtexbd.com</a>
 
                                 </p>
                             </div>
